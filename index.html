@@ -4,11 +4,24 @@
     <head>
         <meta charset="utf-8">
         <title>Project: Recipes</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
+    <body id="index">
         <h1>Odin Recipes</h1>
-        <a href="recipes/lasagna.html">Lasagna Recipe</a><br>
-        <a href="recipes/pizza.html">Pizza Recipe</a><br>
-        <a href="recipes/hotdog.html">Basic Hot Dog</a><br>
+        <div class="row">
+            <div class="recipes left">
+                <p class="title">Lasagna Recipe</p>
+                <a href="recipes/lasagna.html"><img class="main image" src="img/lasagna.webp" alt="Lasagna picture"></a>
+            </div>
+            <div class="recipes center">
+                <p>Pizza Recipe</p>
+                <a href="recipes/pizza.html"><img class="main image" src="img/pizza.jpg" alt="Hot Dog Picture"></a>
+            </div>
+            <div class="recipes right">
+                <p>Hot Dog Recipe</p>
+                <a href="recipes/hotdog.html"><img class="main image" src="img/hotdog.webp" alt="Pizza Picture"> </a>
+            </div>
+        </div>
+        
     </body>
 </html>

@@ -1,0 +1,32 @@
+/* Generic */
+
+h1 {
+    text-align: center;
+}
+
+/* Index.html */
+
+.row{
+    width: 100%;
+    text-align: center;
+}
+
+.recipes
+{
+    display: inline-block;
+    text-align: center;
+   /* width: 150px; */
+    
+}
+
+.main.image{
+    width: auto;
+    height: 100px;
+    border-style:double;
+    border-color: black;
+}
+
+#index{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
